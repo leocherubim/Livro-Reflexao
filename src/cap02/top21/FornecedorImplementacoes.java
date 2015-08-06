@@ -1,4 +1,4 @@
-package cap02;
+package cap02.top21;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -31,10 +31,10 @@ public class FornecedorImplementacoes {
 		try {
 			FornecedorImplementacoes f = new FornecedorImplementacoes("implementacao.prop");
 			Class<?> impl = f.getImplementacao(DAO.class);
-			System.out.println("Implementação recupareda: " +
+			System.out.println("Implementaï¿½ï¿½o recupareda: " +
 					impl.getName());
 		} catch(ClassNotFoundException | IOException e) {
-			System.out.println("Problemas ao obter implementações: " +
+			System.out.println("Problemas ao obter implementaï¿½ï¿½es: " +
 					e.getMessage());
 		}
 	}

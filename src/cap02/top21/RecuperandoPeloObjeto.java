@@ -1,4 +1,4 @@
-package cap02;
+package cap02.top21;
 
 public class RecuperandoPeloObjeto {
 

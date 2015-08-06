@@ -1,4 +1,4 @@
-package cap02;
+package cap02.top21;
 
 public class ReferenciaEstaticaClasse {
 
@@ -9,7 +9,7 @@ public class ReferenciaEstaticaClasse {
 	}
 	
 	public static void imprimeNomeClasse(Class<?> classe) {
-		System.out.println("Chamado o método com " +
+		System.out.println("Chamado o mï¿½todo com " +
 				classe.getName());
 	}
 

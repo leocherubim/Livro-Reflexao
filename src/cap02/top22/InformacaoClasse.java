@@ -1,4 +1,4 @@
-package cap02;
+package cap02.top22;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class InformacaoClasse {
 
 	public static void main(String[] args) {
-		System.out.println("Entre com o nome da classe que deseja informação: ");
+		System.out.println("Entre com o nome da classe que deseja informaï¿½ï¿½o: ");
 		Scanner in = new Scanner(System.in);
 		String nomeClasse = in.nextLine();
 		
@@ -16,7 +16,7 @@ public class InformacaoClasse {
 			Class<?> c = Class.forName(nomeClasse);
 			imprimirHierarquia(c, 1);
 		} catch(ClassNotFoundException e) {
-			System.out.println("A classe " + nomeClasse + " não foi encontrada");
+			System.out.println("A classe " + nomeClasse + " nï¿½o foi encontrada");
 		}
 	}
 	
